@@ -1,0 +1,24 @@
+# Files dan direktori yang tidak perlu di-track di Git
+/node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.DS_Store
+*.tmp
+.idea/
+.vscode/
+.env
+
+# Files yang dihasilkan oleh build tools
+dist/
+build/
+out/
+
+# Files untuk linting dan formatting
+coverage/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+*.iml
